@@ -1,0 +1,9 @@
+commit 0546a15bb6cee798ae5f3ab6d41d55989017a009
+tree c428db69fd68a48afef351c22d9933984dbded1c
+parent 08033d9fc58c532baea51be562b2a3be28166415
+author Gabriel Driver-Wilson <dgabrielw26@gmail.com> 1436996555 -0700
+committer Gabriel Driver-Wilson <dgabrielw26@gmail.com> 1436996555 -0700
+
+    changed status bar to black-translucent
+
+:100644 100644 4dff5060da22f52216aacee5902582b79fabbf7e 2adb08da8ce358d5d2cec1ad9062707d6b77d85f M	loginLink/index.html

@@ -1,0 +1,31 @@
+Started by user [8mha:AAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZR/dLi1CL95PyiSr3yxJQUoCEZibkAMpNTc8oAAAA=[0mcory.waddingham
+Building on master in workspace /var/lib/jenkins/jobs/Mobile UX UI/workspace
+Cloning the remote Git repository
+Cloning repository https://git.visiquate.com/ux-ui/mobile-layout.git
+ > git init /var/lib/jenkins/jobs/Mobile UX UI/workspace # timeout=10
+Fetching upstream changes from https://git.visiquate.com/ux-ui/mobile-layout.git
+ > git --version # timeout=10
+using .gitcredentials to set credentials
+ > git config --local credential.helper store --file=/var/lib/jenkins/tmp/git214041111693637153.credentials # timeout=10
+ > git -c core.askpass=true fetch --tags --progress https://git.visiquate.com/ux-ui/mobile-layout.git +refs/heads/*:refs/remotes/origin/*
+ > git config --local --remove-section credential # timeout=10
+ > git config remote.origin.url https://git.visiquate.com/ux-ui/mobile-layout.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://git.visiquate.com/ux-ui/mobile-layout.git # timeout=10
+Fetching upstream changes from https://git.visiquate.com/ux-ui/mobile-layout.git
+using .gitcredentials to set credentials
+ > git config --local credential.helper store --file=/var/lib/jenkins/tmp/git3518281978647733677.credentials # timeout=10
+ > git -c core.askpass=true fetch --tags --progress https://git.visiquate.com/ux-ui/mobile-layout.git +refs/heads/*:refs/remotes/origin/*
+ > git config --local --remove-section credential # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 08033d9fc58c532baea51be562b2a3be28166415 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 08033d9fc58c532baea51be562b2a3be28166415
+ > git rev-list 08033d9fc58c532baea51be562b2a3be28166415 # timeout=10
+SSH: Connecting from host [pro-inf-1.visiquate.com]
+SSH: Connecting with configuration [mobile] ...
+SSH: Disconnecting configuration [mobile] ...
+SSH: Transferred 0 file(s)
+Build step 'Send files or execute commands over SSH' changed build result to SUCCESS
+Finished: SUCCESS

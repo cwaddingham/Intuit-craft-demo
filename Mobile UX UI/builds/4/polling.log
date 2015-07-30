@@ -1,0 +1,12 @@
+Started on Jul 15, 2015 4:46:59 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 08033d9fc58c532baea51be562b2a3be28166415 (refs/remotes/origin/master)
+using .gitcredentials to set credentials
+ > git --version # timeout=10
+ > git init /var/lib/jenkins/tmp/hudson7906272132890091445tmp # timeout=10
+ > git config --local credential.helper store --file=/var/lib/jenkins/tmp/git903662348582729028.credentials # timeout=10
+ > git -c core.askpass=true ls-remote -h https://git.visiquate.com/ux-ui/mobile-layout.git # timeout=10
+ > git config --local --remove-section credential # timeout=10
+[poll] Latest remote head revision on origin/master is: 0546a15bb6cee798ae5f3ab6d41d55989017a009
+Done. Took 0.44 sec
+Changes found

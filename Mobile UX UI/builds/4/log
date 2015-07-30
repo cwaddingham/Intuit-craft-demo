@@ -1,0 +1,23 @@
+Started by an SCM change
+Building on master in workspace /var/lib/jenkins/jobs/Mobile UX UI/workspace
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://git.visiquate.com/ux-ui/mobile-layout.git # timeout=10
+Fetching upstream changes from https://git.visiquate.com/ux-ui/mobile-layout.git
+ > git --version # timeout=10
+using .gitcredentials to set credentials
+ > git config --local credential.helper store --file=/var/lib/jenkins/tmp/git3545722026089924017.credentials # timeout=10
+ > git -c core.askpass=true fetch --tags --progress https://git.visiquate.com/ux-ui/mobile-layout.git +refs/heads/*:refs/remotes/origin/*
+ > git config --local --remove-section credential # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 0546a15bb6cee798ae5f3ab6d41d55989017a009 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0546a15bb6cee798ae5f3ab6d41d55989017a009
+ > git rev-list 08033d9fc58c532baea51be562b2a3be28166415 # timeout=10
+SSH: Connecting from host [pro-inf-1.visiquate.com]
+SSH: Connecting with configuration [mobile] ...
+SSH: Disconnecting configuration [mobile] ...
+SSH: Transferred 0 file(s)
+Build step 'Send files or execute commands over SSH' changed build result to SUCCESS
+Finished: SUCCESS
